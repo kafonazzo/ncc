@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ncc Transfers and Tours in the Coast - Home</title>
+    <meta name="description" content="Benvenuto al nostro bar: un ambiente accogliente dove gustare colazioni, aperitivi e drink selezionati. Scopri il nostro stile unico.">
+    <meta name="keywords" content="bar, caffetteria, aperitivi, drink, colazioni, cocktail, locale, bevande, lounge, bar moderno, colazione a Genova, Loano, Loano bar, Bottega del mugugno">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="icon" href="Ncc.png" type="image/png">
+
+    <!-- TAG CANONICAL -->
+    <link rel="canonical" href="https://www.bottegadelmugugno.it/">
+
+
+    <!-- ✅ AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="cookie-banner">
+    <p>
+        Questo sito utilizza Google Maps che potrebbe installare cookie di terze parti.
+        <a href="privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<div class="wrapper">
+
+    <!-- Navbar -->
+    <header id="navbar" class="navbar" data-aos="fade-down">
+        <div class="container">
+            <img src="Ncc.png" alt="Logo" class="logo" />
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <nav id="nav-links" class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="contatti.html">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carosello -->
+    <section class="carousel" data-aos="zoom-in">
+        <div class="carousel-container">
+            <div class="slide">
+                <img src="https://volpicase.it/wp-content/uploads/2020/08/costiera-amalfitana-cosa-vedere-1080x675.jpg" alt="Amalfi">
+            </div>
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1724479839764-65981526641d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnVyZ29uZSUyMG5lcm98ZW58MHx8MHx8fDA%3D" alt="Furgone">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1747594079379-2614a58945f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGZ1cmdvbmUlMjBuZXJvfGVufDB8fDB8fHww" alt="Furgone">
+            </div>
+        </div>
+        <div class="carousel-overlay-text">Ncc Transfers and Tours in the Coast</div>
+    </section>
+
+    <!-- Descrizione -->
+    <main>
+        <section class="descrizione">
+            <div class="riga" data-aos="fade-right">
+                <div class="testo">
+                    <h2>Benvenuti a NCC Transfers and Tours in the Coast</h2>
+                    <p>
+                        Siamo la tua scelta di fiducia per spostarti in tutta la Campania con
+                        comfort e sicurezza. Offriamo servizi di <strong>noleggio con conducente</strong>
+                        per visitare la Costiera Amalfitana, Napoli, Salerno e tante altre destinazioni
+                        indimenticabili.
+                    </p>
+                </div>
+            </div>
+            <div class="riga inversa" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1600320254374-ce2d293c324e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGF4aSUyMGRyaXZlcnxlbnwwfHwwfHx8MA%3D%3D" alt="Accoglienza e professionalità">
+                <div class="testo">
+                    <h2>Accoglienza e Professionalità</h2>
+                    <p>
+                        Conducenti esperti e cordiali saranno al tuo fianco durante ogni tragitto.
+                        Puntualità, eleganza e disponibilità sono i nostri punti di forza,
+                        per garantirti un viaggio sereno e rilassato.
+                    </p>
+                </div>
+            </div>
+            <div class="riga" data-aos="fade-right">
+                <img src="https://content.skyscnr.com/m/5efc6eff260b9533/original/GettyImages-479218920.jpg" alt="Transfer e tour personalizzati">
+                <div class="testo">
+                    <h2>La Nostra Proposta</h2>
+                    <p>
+                        Offriamo <strong>transfer da e per aeroporti, stazioni e porti</strong>,
+                        oltre a tour giornalieri nelle più belle località della Campania.
+                        Che si tratti di un viaggio di lavoro o di una vacanza, avrai sempre
+                        un servizio su misura per te.
+                    </p>
+                </div>
+            </div>
+            <div class="riga" data-aos="fade-left">
+                <img src="https://www.goamerica.it/wp-content/uploads/sites/55/2016/12/viaggi-di-gruppo.jpg" alt="Viaggi di gruppo in van">
+                <div class="testo">
+                    <h2>Viaggi in Gruppo</h2>
+                    <p>
+                        Disponiamo di un <strong>van da 9 posti</strong>, perfetto per famiglie e gruppi
+                        di amici che desiderano viaggiare insieme. Più spazio, più comodità e
+                        la garanzia di un servizio efficiente per rendere ogni esperienza
+                        indimenticabile.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sezione Servizi -->
+    <section class="servizi" data-aos="fade-up">
+        <h2>I Nostri Servizi</h2>
+        <div class="servizi-container">
+
+            <!-- Transfer -->
+            <div class="servizio" data-aos="zoom-in" data-aos-delay="100">
+                <!-- Icona Transfer (car) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car-icon lucide-car"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+                <h3>Transfer Privati</h3>
+                <p>Trasferimenti da e per aeroporti, stazioni e porti di Napoli, Salerno e Roma.</p>
+            </div>
+
+            <!-- Tour -->
+            <div class="servizio" data-aos="zoom-in" data-aos-delay="200">
+                <!-- Icona Tour (map) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-icon lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>
+                <h3>Tour Giornalieri</h3>
+                <p>Esplora Amalfi, Positano, Ravello e gli altri gioielli della Costiera con i nostri tour personalizzati.</p>
+            </div>
+
+            <!-- Van 9 posti -->
+            <div class="servizio" data-aos="zoom-in" data-aos-delay="300">
+                <!-- Icona Van (shuttle van) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sofa-icon lucide-sofa"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"/><path d="M4 18v2"/><path d="M20 18v2"/><path d="M12 4v9"/></svg>
+                <h3>Van da 9 Posti</h3>
+                <p>Perfetto per viaggi di gruppo o famiglie, con tutto lo spazio e il comfort di cui hai bisogno.</p>
+            </div>
+
+            <!-- Costiera Amalfitana -->
+            <div class="servizio" data-aos="zoom-in" data-aos-delay="400">
+                <!-- Icona Costiera (umbrella-beach) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-waves-icon lucide-waves"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
+                <h3>Scopri la Costiera</h3>
+                <p>Un patrimonio unico tra mare, borghi storici, enogastronomia e panorami mozzafiato.</p>
+            </div>
+
+            <!-- Yacht Charter -->
+            <div class="servizio" data-aos="zoom-in" data-aos-delay="500">
+                <!-- Icona Yacht (ship) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ship-icon lucide-ship"><path d="M12 10.189V14"/><path d="M12 2v3"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76"/><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
+                <h3>Transfers Yacht & Barca</h3>
+                <p>In collaborazione con yacht-rent.it offriamo transfer affidabili per ospiti di yacht charter e tour in barca.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Mappa -->
+    <section class="mappa" data-aos="fade-up">
+        <h2>Ci trovi qui 📍</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.0424157334282!2d14.606455099999998!3d40.6509954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6c3711a2a91a39%3A0x435e987c356c85fe!2sNcc%20Transfers%20and%20Tours%20in%20the%20Coast!5e0!3m2!1sit!2sit!4v1757265211903!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Sezione Social -->
+    <section class="social-section" data-aos="fade-up">
+        <h2>I nostri social social</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/ncctransfers_tours_inthe_coast/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram">
+            </a>
+        </div>
+    </section>
+    <a href="tel:+393667451229" class="call-now">📞 Chiama ora</a>
+    <!-- Footer -->
+    <footer data-aos="fade-up">
+        <p>&copy; 2025 Ncc Transfers and Tours in the Coast - Tutti i diritti riservati - Realizzato da Fabio Merello</p>
+        <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</div>
+
+<!-- ✅ AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000, // durata animazione in ms
+        once: true      // l'animazione avviene solo una volta
+    });
+</script>
+
+</body>
+</html>

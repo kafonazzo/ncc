@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contatti - Ncc Transfers and Tours in the Coast</title>
+    <meta name="description" content="Contatta La Bottega Del Mugugno per prenotazioni, richieste e informazioni. Siamo a tua disposizione con cortesia e professionalità.">
+    <meta name="keywords" content="contatti, prenotazioni, ristorante, La Bottega Del Mugugno, Genova, telefono, email, informazioni, orari apertura">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="Ncc.png" type="image/png">
+
+    <!-- TAG CANONICAL -->
+    <link rel="canonical" href="https://www.bottegadelmugugno.it/contatti.html">
+
+
+    <!-- CSS personalizzato -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Script personalizzato -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Navbar -->
+    <header id="navbar" class="navbar" data-aos="fade-down">
+        <div class="container">
+            <img src="Ncc.png" alt="Logo" class="logo" />
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <nav id="nav-links" class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="contatti.html" class="active">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-contact" data-aos="zoom-in">
+        <h1>Contattaci</h1>
+        <p>Per prenotazioni, eventi o qualsiasi informazione.</p>
+    </section>
+
+    <!-- Info contatto migliorata -->
+    <section class="contact-info enhanced-contact">
+        <div class="info-box wide" data-aos="fade-right">
+            <h2>Dove siamo</h2>
+            <p><strong>📍 Indirizzo:</strong><br> Via Simone Stella, 12, 17025 Loano SV</p>
+            <p><strong>📞 Telefono:</strong><br> <a href="tel:+39393667451229">+39 393667451229</a></p>
+            <p><strong>📧 Email:</strong><br> <a href="mailto: mariasavino2000@gmail.com">predarid@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Form Prenotazione Transfer/Tour -->
+    <section class="contact-form" data-aos="fade-up">
+        <h2>Prenota il tuo NCC</h2>
+        <form action="https://formspree.io/f/xjkolovn" method="POST">
+            <div class="form-grid">
+                <input type="text" name="Nome" placeholder="Nome e Cognome" required>
+                <input type="tel" name="Telefono" placeholder="Telefono" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="date" name="Data" required>
+                <input type="time" name="Ora" required>
+                <input type="text" name="Partenza" placeholder="Luogo di Partenza" required>
+                <input type="text" name="Destinazione" placeholder="Destinazione" required>
+                <input type="number" name="Passeggeri" placeholder="N. Passeggeri" min="1" required>
+            </div>
+
+            <textarea name="Messaggio" rows="5" placeholder="Messaggi o richieste speciali (es. seggiolino bambini, tour personalizzato)..."></textarea>
+
+            <label class="privacy-consent">
+                <input type="checkbox" name="privacy" required>
+                Acconsento al trattamento dei miei dati personali ai sensi della
+                <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.
+            </label>
+
+            <button type="submit" class="btn">Richiedi Preventivo</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer data-aos="fade-up">
+        <p>&copy; 2025 Ncc Transfers and Tours in the Coast - Tutti i diritti riservati - Realizzato da Fabio Merello</p>
+    </footer>
+
+</div>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</body>
+</html>
