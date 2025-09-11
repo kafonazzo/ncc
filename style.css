@@ -343,7 +343,7 @@ body {
     text-align: center;
     padding: 4rem 2rem;
     background: linear-gradient(135deg, #005f73, #0a9396); /* rosso vino */
-    color: #e9d8a6;
+    color: #f4f4f4;
     border-radius: 16px;
     margin: 2rem;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
@@ -985,7 +985,7 @@ footer a:focus {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    background-color: #e9d8a6;
+    background-color: #f4f4f4;
     border-top: 2px solid #0a9396;
     border-bottom: 2px solid #0a9396;
 }
@@ -1001,7 +1001,7 @@ footer a:focus {
     display: flex;
     justify-content: center;
     padding: 4rem 2rem; /* Spazio sopra e sotto */
-    background-color: #e9d8a6; /* crema chiaro */
+    background-color: #f4f4f4; /* crema chiaro */
 }
 
 .info-box.wide {
@@ -1015,7 +1015,7 @@ footer a:focus {
 
 .contact-form {
     padding: 4rem 2rem;
-    background-color: #e9d8a6; /* crema */
+    background-color: #f4f4f4; /* crema */
     text-align: center;
 }
 
@@ -1198,7 +1198,7 @@ footer a:focus {
     background-image: url('https://media.istockphoto.com/id/104704117/it/foto/piatti-del-ristorante.jpg?s=612x612&w=0&k=20&c=g5XnViuY6ZirpT-ZMD7epg36LZmvRM9oRPbEumXw0ME='); /* Sostituisci con un'immagine tua */
     background-size: cover;
     background-position: center;
-    color: #e9d8a6;
+    color: #f4f4f4;
     text-align: center;
     padding: 120px 20px 100px;
     position: relative;
